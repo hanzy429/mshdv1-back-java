@@ -70,5 +70,10 @@ public class OtherRecordResource {
         return otherRecords;
     }
 
+    @GetMapping("/v1/singleOtherRecordInfo/{id}")
+    public OtherRecord getOtherRecordInfoById(@PathVariable("id")String id){
+        OtherRecord otherRecordInfo = otherRecordMapper.getOtherRecordById(id);
+        return otherRecordInfo;
+    }
 
 }

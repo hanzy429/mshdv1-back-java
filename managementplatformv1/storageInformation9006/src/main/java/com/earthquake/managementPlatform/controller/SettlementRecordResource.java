@@ -69,4 +69,11 @@ public class SettlementRecordResource {
         List<SettlementRecord> settlementRecords = settlementRecordMapper.getCopySettlementRecord(time*24);
         return settlementRecords;
     }
+
+    @GetMapping("/v1/singleSettlementRecordInfo/{id}")
+    public SettlementRecord getSettlementRecordInfoById(@PathVariable("id")String id){
+        SettlementRecord settlementRecordInfo = settlementRecordMapper.getSettlementRecordById(id);
+        return settlementRecordInfo;
+    }
+
 }

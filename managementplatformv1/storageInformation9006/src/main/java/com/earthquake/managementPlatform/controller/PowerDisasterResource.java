@@ -70,4 +70,10 @@ public class PowerDisasterResource {
         List<PowerDisaster> powerDisasters = powerDisasterMapper.getCopyPowerDisaster(time*24);
         return powerDisasters;
     }
+
+    @GetMapping("/v1/singlePowerDisasterInfo/{id}")
+    public PowerDisaster getPowerDisasterInfoById(@PathVariable("id")String id){
+        PowerDisaster powerDisasterInfo = powerDisasterMapper.getPowerDisasterById(id);
+        return powerDisasterInfo;
+    }
 }

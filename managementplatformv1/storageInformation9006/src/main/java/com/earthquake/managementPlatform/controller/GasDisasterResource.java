@@ -70,4 +70,10 @@ public class GasDisasterResource {
         List<GasDisaster> gasDisasters = gasDisasterMapper.getCopyGasDisaster(time*24);
         return gasDisasters;
     }
+
+    @GetMapping("/v1/singleGasDisasterInfo/{id}")
+    public GasDisaster getGasDisasterInfoById(@PathVariable("id")String id){
+        GasDisaster gasDisasterInfo = gasDisasterMapper.getGasDisasterById(id);
+        return gasDisasterInfo;
+    }
 }

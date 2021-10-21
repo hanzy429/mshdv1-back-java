@@ -78,4 +78,10 @@ public class CivilStructureResource {
         List<CivilStructure> civilStructures = civilStructureMapper.getCopyCivilStructure(time*24);
         return civilStructures;
     }
+
+    @GetMapping("/v1/singleCivilStructureInfo/{id}")
+    public CivilStructure getCivilStructureInfoById(@PathVariable("id")String id){
+        CivilStructure civilStructuresInfo = civilStructureMapper.getCivilStructureById(id);
+        return civilStructuresInfo;
+    }
 }

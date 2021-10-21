@@ -69,4 +69,10 @@ public class CrackRecordResource {
         List<CrackRecord> crackRecords = crackRecordMapper.getCopyCrackRecord(time*24);
         return crackRecords;
     }
+
+    @GetMapping("/v1/singleCrackRecordInfo/{id}")
+    public CrackRecord getCrackRecordInfoById(@PathVariable("id")String id){
+        CrackRecord crackRecordInfo = crackRecordMapper.getCrackRecordById(id);
+        return crackRecordInfo;
+    }
 }

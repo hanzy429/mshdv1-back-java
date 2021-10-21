@@ -69,4 +69,10 @@ public class KarstRecordResource {
         List<KarstRecord> karstRecords = karstRecordMapper.getCopyKarstRecord(time*24);
         return karstRecords;
     }
+
+    @GetMapping("/v1/singleKarstRecordInfo/{id}")
+    public KarstRecord getKarstRecordInfoById(@PathVariable("id")String id){
+        KarstRecord karstRecordInfo = karstRecordMapper.getKarstRecordById(id);
+        return karstRecordInfo;
+    }
 }

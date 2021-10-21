@@ -79,4 +79,11 @@ public class OtherStructureResource {
         List<OtherStructure> otherStructures = otherStructureMapper.getCopyOtherStructure(time*24);
         return otherStructures;
     }
+
+
+    @GetMapping("/v1/singleOtherStructureInfo/{id}")
+    public OtherStructure getOtherStructureInfoById(@PathVariable("id")String id){
+        OtherStructure otherStructuresInfo = otherStructureMapper.getOtherStructureById(id);
+        return otherStructuresInfo;
+    }
 }

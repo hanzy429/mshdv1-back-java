@@ -70,4 +70,10 @@ public class IrrigationDisasterResource {
         List<IrrigationDisaster> irrigationDisasters = irrigationDisasterMapper.getCopyIrrigationDisaster(time*24);
         return irrigationDisasters;
     }
+
+    @GetMapping("/v1/singleIrrigationDisasterInfo/{id}")
+    public IrrigationDisaster getIrrigationDisasterInfoById(@PathVariable("id")String id){
+        IrrigationDisaster irrigationDisasterInfo = irrigationDisasterMapper.getIrrigationDisasterById(id);
+        return irrigationDisasterInfo;
+    }
 }

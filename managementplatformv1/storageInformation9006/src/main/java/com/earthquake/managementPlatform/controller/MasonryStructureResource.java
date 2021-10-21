@@ -79,4 +79,10 @@ public class MasonryStructureResource {
         List<MasonryStructure> masonryStructures = masonryStructureMapper.getCopyMasonryStructure(time*24);
         return masonryStructures;
     }
+
+    @GetMapping("/v1/singleMasonryStructureInfo/{id}")
+    public MasonryStructure getCivilStructureInfoById(@PathVariable("id")String id){
+        MasonryStructure masonryStructuresInfo = masonryStructureMapper.getMasonryStructureById(id);
+        return masonryStructuresInfo;
+    }
 }

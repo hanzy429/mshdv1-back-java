@@ -66,4 +66,10 @@ public class InjuredStatisticsResource {
         List<InjuredStatistics> injuredStatistics = injuredStatisticsMapper.getCopyInjuredStatistics(time*24);
         return injuredStatistics;
     }
+
+    @GetMapping("/v1/singleInjuredStatisticsInfo/{id}")
+    public InjuredStatistics getInjuredStatisticsInfoById(@PathVariable("id")String id){
+        InjuredStatistics injuredStatisticsInfo = injuredStatisticsMapper.getInjuredStatisticsById(id);
+        return injuredStatisticsInfo;
+    }
 }

@@ -4,7 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54b4a7d3-a29b-470d-8a2f-28281603307b" name="Default Changelist" comment="" />
+    <list default="true" id="54b4a7d3-a29b-470d-8a2f-28281603307b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/BrickwoodStructureResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/BrickwoodStructureResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/CivilStructureResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/CivilStructureResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/CollapseRecordResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/CollapseRecordResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/CommDisasterResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/CommDisasterResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/CrackRecordResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/CrackRecordResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/DeathStatisticsResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/DeathStatisticsResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/DebrisRecordResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/DebrisRecordResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/DisasterPredictionResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/DisasterPredictionResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/FrameworkStructureResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/FrameworkStructureResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/GasDisasterResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/GasDisasterResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/InjuredStatisticsResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/InjuredStatisticsResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/IrrigationDisasterResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/IrrigationDisasterResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/KarstRecordResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/KarstRecordResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/LandslideRecordResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/LandslideRecordResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/MasonryStructureResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/MasonryStructureResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/MissingStatisticsResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/MissingStatisticsResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/OilDisasterResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/OilDisasterResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/OtherRecordResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/OtherRecordResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/OtherStructureResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/OtherStructureResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/PowerDisasterResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/PowerDisasterResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/SettlementRecordResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/SettlementRecordResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/TrafficDisasterResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/TrafficDisasterResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/WaterDisasterResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/WaterDisasterResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/mapper/DeathStatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/mapper/DeathStatisticsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/BrickwoodStructureResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/BrickwoodStructureResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/CivilStructureResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/CivilStructureResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/CollapseRecordResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/CollapseRecordResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/CommDisasterResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/CommDisasterResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/CrackRecordResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/CrackRecordResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/DeathStatisticsResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/DeathStatisticsResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/DebrisRecordResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/DebrisRecordResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/DisasterPredictionResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/DisasterPredictionResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/FrameworkStructureResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/FrameworkStructureResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/GasDisasterResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/GasDisasterResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/InjuredStatisticsResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/InjuredStatisticsResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/IrrigationDisasterResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/IrrigationDisasterResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/KarstRecordResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/KarstRecordResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/LandslideRecordResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/LandslideRecordResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/MasonryStructureResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/MasonryStructureResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/MissingStatisticsResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/MissingStatisticsResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/OilDisasterResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/OilDisasterResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/OtherRecordResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/OtherRecordResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/OtherStructureResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/OtherStructureResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/PowerDisasterResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/PowerDisasterResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/SettlementRecordResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/SettlementRecordResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/TrafficDisasterResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/TrafficDisasterResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/WaterDisasterResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/WaterDisasterResource.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +143,16 @@
       <set>
         <option value="SpringBootApplicationConfigurationType" />
       </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
     </option>
   </component>
   <component name="RunManager" selected="Application.UploadFile8001">
@@ -256,28 +315,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -430,12 +467,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

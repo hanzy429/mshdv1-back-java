@@ -69,4 +69,10 @@ public class DebrisRecordResource {
         List<DebrisRecord> debrisRecords = debrisRecordMapper.getCopyDebrisRecord(time*24);
         return debrisRecords;
     }
+
+    @GetMapping("/v1/singleDebrisRecordInfo/{id}")
+    public DebrisRecord getDebrisRecordInfoById(@PathVariable("id")String id){
+        DebrisRecord debrisRecordInfo = debrisRecordMapper.getDebrisRecordById(id);
+        return debrisRecordInfo;
+    }
 }

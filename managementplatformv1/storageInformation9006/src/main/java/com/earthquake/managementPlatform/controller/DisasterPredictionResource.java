@@ -64,4 +64,10 @@ public class DisasterPredictionResource {
         List<DisasterPrediction> disasterPredictions = disasterPredictionMapper.getCopyDisasterPrediction(time*24);
         return disasterPredictions;
     }
+
+    @GetMapping("/v1/singleDisasterPredictionInfo/{D_ID}/{S_ID}")
+    public DisasterPrediction getDisasterPredictionInfoById(@PathVariable("D_ID") String D_ID,@PathVariable("S_ID") String S_ID){
+        DisasterPrediction disasterPredictionInfo = disasterPredictionMapper.getDisasterPredictionById(D_ID,S_ID);
+        return disasterPredictionInfo;
+    }
 }

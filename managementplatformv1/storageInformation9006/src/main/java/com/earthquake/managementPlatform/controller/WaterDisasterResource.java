@@ -70,4 +70,10 @@ public class WaterDisasterResource {
         List<WaterDisaster> waterDisasters = waterDisasterMapper.getCopyWaterDisaster(time*24);
         return waterDisasters;
     }
+
+    @GetMapping("/v1/singleWaterDisasterInfo/{id}")
+    public WaterDisaster getWaterDisasterInfoById(@PathVariable("id")String id){
+        WaterDisaster waterDisasterInfo = waterDisasterMapper.getWaterDisasterById(id);
+        return waterDisasterInfo;
+    }
 }

@@ -70,4 +70,10 @@ public class TrafficDisasterResource {
         List<TrafficDisaster> trafficDisasters = trafficDisasterMapper.getCopyTrafficDisaster(time*24);
         return trafficDisasters;
     }
+
+    @GetMapping("/v1/singleTrafficDisasterInfo/{id}")
+    public TrafficDisaster getTrafficDisasterInfoById(@PathVariable("id")String id){
+        TrafficDisaster trafficDisasterInfo = trafficDisasterMapper.getTrafficDisasterById(id);
+        return trafficDisasterInfo;
+    }
 }

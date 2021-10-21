@@ -68,4 +68,11 @@ public class LandslideRecordResource {
         List<LandslideRecord> landslideRecords = landslideRecordMapper.getCopyLandslideRecord(time*24);
         return landslideRecords;
     }
+
+
+    @GetMapping("/v1/singleLandslideRecordInfo/{id}")
+    public LandslideRecord getLandslideRecordInfoById(@PathVariable("id")String id){
+        LandslideRecord landslideRecordInfo = landslideRecordMapper.getLandslideRecordById(id);
+        return landslideRecordInfo;
+    }
 }

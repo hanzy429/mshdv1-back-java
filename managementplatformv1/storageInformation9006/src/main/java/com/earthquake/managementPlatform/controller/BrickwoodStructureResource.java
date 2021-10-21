@@ -79,4 +79,10 @@ public class BrickwoodStructureResource {
         List<BrickwoodStructure> brickwoodStructures = brickwoodStructureMapper.getCopyBrickwoodStructure(time*24);
         return brickwoodStructures;
     }
+
+    @GetMapping("/v1/singleBrickwoodStructureInfo/{id}")
+    public BrickwoodStructure getCivilStructureInfoById(@PathVariable("id")String id){
+        BrickwoodStructure brickwoodStructuresInfo = brickwoodStructureMapper.getBrickwoodStructureById(id);
+        return brickwoodStructuresInfo;
+    }
 }

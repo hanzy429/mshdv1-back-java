@@ -69,4 +69,10 @@ public class CollapseRecordResource {
         List<CollapseRecord> collapseRecords = collapseRecordMapper.getCopyCollapseRecord(time*24);
         return collapseRecords;
     }
+
+    @GetMapping("/v1/singleCollapseRecordInfo/{id}")
+    public CollapseRecord getCollapseRecordInfoById(@PathVariable("id")String id){
+        CollapseRecord collapseRecordInfo = collapseRecordMapper.getCollapseRecordById(id);
+        return collapseRecordInfo;
+    }
 }

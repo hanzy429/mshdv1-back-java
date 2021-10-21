@@ -70,4 +70,10 @@ public class CommDisasterResource {
         List<CommDisaster> commDisasters = commDisasterMapper.getCopyCommDisaster(time*24);
         return commDisasters;
     }
+
+    @GetMapping("/v1/singleCommDisasterInfo/{id}")
+    public CommDisaster getCommDisasterInfoById(@PathVariable("id")String id){
+        CommDisaster commDisasterInfo = commDisasterMapper.getCommDisasterById(id);
+        return commDisasterInfo;
+    }
 }

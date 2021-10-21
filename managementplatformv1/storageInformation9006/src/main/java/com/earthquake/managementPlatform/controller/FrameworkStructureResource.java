@@ -79,4 +79,11 @@ public class FrameworkStructureResource {
         List<FrameworkStructure> frameworkStructures = frameworkStructureMapper.getCopyFrameworkStructure(time*24);
         return frameworkStructures;
     }
+
+
+    @GetMapping("/v1/singleFrameworkStructureInfo/{id}")
+    public FrameworkStructure getFrameworkStructureInfoById(@PathVariable("id")String id){
+        FrameworkStructure frameworkStructuresInfo = frameworkStructureMapper.getFrameworkStructureById(id);
+        return frameworkStructuresInfo;
+    }
 }

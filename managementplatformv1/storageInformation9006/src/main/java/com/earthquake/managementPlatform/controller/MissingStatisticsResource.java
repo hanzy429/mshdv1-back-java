@@ -68,7 +68,11 @@ public class MissingStatisticsResource {
         return missingStatistics;
     }
 
-
+    @GetMapping("/v1/singleMissingStatisticsInfo/{id}")
+    public MissingStatistics getInjuredStatisticsInfoById(@PathVariable("id")String id){
+        MissingStatistics missingStatisticsInfo = missingStatisticsMapper.getMissingStatisticsById(id);
+        return missingStatisticsInfo;
+    }
 
 
 }

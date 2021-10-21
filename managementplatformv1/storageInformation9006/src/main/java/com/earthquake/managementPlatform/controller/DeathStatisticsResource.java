@@ -66,4 +66,10 @@ public class DeathStatisticsResource {
         List<DeathStatistics> deathStatistics = deathStatisticsMapper.getCopyDeathStatistics(time*24);
         return deathStatistics;
     }
+
+    @GetMapping("/v1/singleDeathStatisticsInfo/{id}")
+    public DeathStatistics getDeathStatisticsInfoById(@PathVariable("id")String id){
+        DeathStatistics deathStatisticsInfo = deathStatisticsMapper.getDeathStatisticsById(id);
+        return deathStatisticsInfo;
+    }
 }

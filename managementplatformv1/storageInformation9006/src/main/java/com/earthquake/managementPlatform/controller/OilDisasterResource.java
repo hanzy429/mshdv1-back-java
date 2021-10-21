@@ -70,4 +70,10 @@ public class OilDisasterResource {
         List<OilDisaster> oilDisasters = oilDisasterMapper.getCopyOilDisaster(time*24);
         return oilDisasters;
     }
+
+    @GetMapping("/v1/singleOilDisasterInfo/{id}")
+    public OilDisaster getOilDisasterInfoById(@PathVariable("id")String id){
+        OilDisaster oilDisasterInfo = oilDisasterMapper.getOilDisasterById(id);
+        return oilDisasterInfo;
+    }
 }
