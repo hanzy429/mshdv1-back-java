@@ -89,6 +89,8 @@
             <version>20190722</version>
         </dependency>
 
+
+
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
         <dependency>
             <groupId>org.apache.poi</groupId>
@@ -109,6 +111,11 @@
             <version>2.6.12</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.sun.xml.fastinfoset</groupId>
+            <artifactId>FastInfoset</artifactId>
+            <version>1.2.12</version>
+        </dependency>
 
     </dependencies>
 
@@ -132,6 +139,7 @@
                     <mainClass>com.earthquake.managementPlatform.UploadFile8001</mainClass>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 
