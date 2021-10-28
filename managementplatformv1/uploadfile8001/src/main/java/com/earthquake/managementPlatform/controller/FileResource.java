@@ -9,9 +9,7 @@
 
 package com.earthquake.managementPlatform.controller;
 
-import com.earthquake.managementPlatform.entities.PostVo;
-import com.earthquake.managementPlatform.entities.PostVoForOne;
-import com.earthquake.managementPlatform.entities.Schedule;
+import com.earthquake.managementPlatform.entities.*;
 import com.earthquake.managementPlatform.mapper.OnOffMapper;
 import com.earthquake.managementPlatform.mapper.ScheduleMapper;
 import com.earthquake.managementPlatform.service.AddRecordService;
@@ -51,6 +49,21 @@ public class FileResource {
     @Resource
     OnOffMapper onOffMapper;
 
+    @GetMapping("/v1/getFileReadingSettings")
+    public GetVo getFileReadingSettings(){
+        boolean isRead = onOffMapper.getReadingFiles();
+        String cron = scheduleMapper.getSchedule();
+        FileSettings fileSettings;
+        List<FileSettings> data = new ArrayList();
+        //已经进行过设置
+        if(isRead&&cron!=null||!isRead){
+            fileSettings = new FileSettings(isRead,cron);
+            data.add(fileSettings);
+            return new GetVo(0,"读取设置成功",0,data);
+        }else {
+            return new GetVo(1,"未进行设置",0,null);
+        }
+    }
 
     @PostMapping("/v1/changeSchedule")
     public PostVo changeSchedule(HttpServletRequest httpServletRequest){
