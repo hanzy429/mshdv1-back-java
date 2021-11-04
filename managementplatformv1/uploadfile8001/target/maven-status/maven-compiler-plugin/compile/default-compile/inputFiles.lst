@@ -10,6 +10,7 @@ D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatfor
 D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\config\ApplicationContextConfig.java
 D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\DisasterFile.java
 D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\config\ParamConfig.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\FileSettings.java
 D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FtpMethod.java
 D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\PostVo.java
 D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper\ScheduleMapper.java
@@ -31,5 +32,6 @@ D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatfor
 D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\XmlBehavior.java
 D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\PostVoForOne.java
 D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\BufferedReaderMethod.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\GetVo.java
 D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\MultiMediaMethod.java
 D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FileBehavior.java

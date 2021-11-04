@@ -1,3 +1,4 @@
+com\earthquake\managementPlatform\entities\FileSettings.class
 com\earthquake\managementPlatform\entities\PostVoForOne.class
 com\earthquake\managementPlatform\service\XmlBehavior.class
 com\earthquake\managementPlatform\service\DisasterFile.class
@@ -14,6 +15,7 @@ com\earthquake\managementPlatform\service\FileTypeFactory.class
 com\earthquake\managementPlatform\config\MyMvcConfig.class
 com\earthquake\managementPlatform\service\MultiMediaMethodService.class
 com\earthquake\managementPlatform\config\ApplicationContextConfig.class
+com\earthquake\managementPlatform\entities\GetVo.class
 com\earthquake\managementPlatform\entities\PostVo.class
 com\earthquake\managementPlatform\mapper\ScheduleMapper.class
 com\earthquake\managementPlatform\service\JsonFile.class
