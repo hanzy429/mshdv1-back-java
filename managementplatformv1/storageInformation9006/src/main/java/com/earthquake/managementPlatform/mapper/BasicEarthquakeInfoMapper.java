@@ -23,6 +23,7 @@ public interface BasicEarthquakeInfoMapper{
             @Result(column="magnitude", property="magnitude", jdbcType= JdbcType.FLOAT),
             @Result(column="picture", property="picture", jdbcType= JdbcType.VARCHAR),
             @Result(column="reporting_unit", property="reportingUnit", jdbcType= JdbcType.VARCHAR)
+            
     })
     List<BasicEarthquakeInfo> getAllDisasterInfo();
 
