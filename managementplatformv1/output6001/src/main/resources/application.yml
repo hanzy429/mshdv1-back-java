@@ -55,8 +55,8 @@ spring:
     secondary:
       driver-class-name: com.mysql.jdbc.Driver
       jdbc-url: jdbc:mysql://rm-bp1m95o3lvxzaxbzoho.mysql.rds.aliyuncs.com:3306/sentdata?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
-      username: root
-      password: hzy1999429
+      username: earthquake
+      password: Root123!
 
 eureka:
   client:
