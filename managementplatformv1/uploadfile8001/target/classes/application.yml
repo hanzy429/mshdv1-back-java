@@ -98,12 +98,16 @@ spring:
     name: cloud-uploadFile-service
     #    druid,myBatis,mysql整合
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://rm-bp1m95o3lvxzaxbzoho.mysql.rds.aliyuncs.com:3306/earthquake?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
-    username: earthquake
-    password: Root123!
-
+    primary:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://rm-bp1m95o3lvxzaxbzoho.mysql.rds.aliyuncs.com:3306/earthquake?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+      username: earthquake
+      password: Root123!
+    secondary:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://175.27.191.12:3306/earthquake?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+      username: earthquake
+      password: Root123!
 data-source:
   earthquake-info: 501
   li:
@@ -127,6 +131,7 @@ data-source:
     - 202
     - 203
     - 301
+
 
 file:
   save-path: /Users/wencychen/Downloads

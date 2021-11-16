@@ -86,6 +86,11 @@
             <artifactId>json</artifactId>
             <version>20190722</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.12.4</version>
+        </dependency>
     </dependencies>
 
     <!--多模块打包：只需在启动类所在模块的POM文件：指定打包插件 -->
