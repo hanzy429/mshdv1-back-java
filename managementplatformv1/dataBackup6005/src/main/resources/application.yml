@@ -41,7 +41,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://rm-bp1m95o3lvxzaxbzoho.mysql.rds.aliyuncs.com:3306/earthquakebackup?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://119.3.219.152:3306/earthquakebackup?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
     username: earthquake
     password: Root123!
 

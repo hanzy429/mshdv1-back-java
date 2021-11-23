@@ -15,7 +15,7 @@ public class FileTypeFactory {
         else if(strArray[suffixIndex].equals("json")){
             disasterFile = new JsonFile(filePath);
         }
-        else  if(strArray[suffixIndex].equals("xls")){
+        else if(strArray[suffixIndex].equals("xls")){
             disasterFile = new ExcelFile(filePath);
         }
         return disasterFile;

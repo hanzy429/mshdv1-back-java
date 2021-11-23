@@ -138,7 +138,6 @@ public class DisasterRequestResource {
             flag2= masonryStructureMapper.save(masonryStructure);
         }
         else if(categoryId.equals("224")){
-            //code = frameworkStructureMapper.getNewCode();
             FrameworkStructure frameworkStructure =restTemplate.getForObject(storageInformationUrl+"/v1/singleFrameworkStructureInfo/"+code,FrameworkStructure.class);
             flag2=frameworkStructureMapper.save(frameworkStructure);
         }
