@@ -13,9 +13,8 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
-import java.io.UnsupportedEncodingException;
-import java.net.URLDecoder;
-import java.net.URLEncoder;
+import java.io.*;
+import java.net.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -68,6 +67,63 @@ public class CodeResource {
         map.put("code",code);
         map.put("source",jsonObject.getString("source"));
         map.put("data",jsonObject.toString());
+            File fi=null;
+
+            String urlPath= "http://"+(String)jsonObject.get("influencefield");
+            try{
+                URL url = new URL(urlPath);
+                // 连接类的父类，抽象类
+                URLConnection urlConnection = url.openConnection();
+                // http的连接类
+                HttpURLConnection httpURLConnection = (HttpURLConnection) urlConnection;
+                //设置超时
+                httpURLConnection.setConnectTimeout(1000*5);
+                //设置请求方式，默认是GET
+                httpURLConnection.setRequestProperty("Charset", "UTF-8");
+                // 打开到此 URL引用的资源的通信链接（如果尚未建立这样的连接）。
+                httpURLConnection.connect();
+                // 文件大小
+                int fileLength = httpURLConnection.getContentLength();
+
+                // 控制台打印文件大小
+                System.out.println("您要下载的文件大小为:" + fileLength / (1024 * 1024) + "MB");
+
+                // 建立链接从请求中获取数据
+                URLConnection con = url.openConnection();
+                BufferedInputStream bin = new BufferedInputStream(httpURLConnection.getInputStream());
+                // 指定文件名称(有需求可以自定义)
+                String fileFullName = ((String) jsonObject.get("influencefield")).split("/")[((String) jsonObject.get("influencefield")).split("/").length-1];
+                // 指定存放位置(有需求可以自定义)
+                String path = "E:" + File.separatorChar + fileFullName;
+                fi = new File(path);
+                // 校验文件夹目录是否存在，不存在就创建一个目录
+                if (!fi.getParentFile().exists()) {
+                    fi.getParentFile().mkdirs();
+                }
+
+                OutputStream out = new FileOutputStream(fi);
+                int size = 0;
+                int len = 0;
+                byte[] buf = new byte[2048];
+                while ((size = bin.read(buf)) != -1) {
+                    len += size;
+                    out.write(buf, 0, size);
+                    // 控制台打印文件下载的百分比情况
+                    System.out.println("下载了-------> " + len * 100 / fileLength + "%\n");
+                }
+                // 关闭资源
+                bin.close();
+                out.close();
+                System.out.println("文件下载成功！");
+
+            } catch (MalformedURLException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+                System.out.println("文件下载失败！");
+            }
         log.info(restTemplate.postForObject(storageInformationUrl+"/v1/informationStorage",map,String.class));
         codes.add(code);
         return new PostVo(0,"录入成功",codes);

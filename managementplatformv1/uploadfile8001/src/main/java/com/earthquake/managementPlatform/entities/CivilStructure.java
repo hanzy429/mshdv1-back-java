@@ -15,11 +15,11 @@ public class CivilStructure {
     private String country;
     private String town;
     private String category;
-
+    private String village;
     public CivilStructure() {
     }
 
-    public CivilStructure(String id, String date, String location, Double basicallyIntactSquare, Double damagedSquare, Double destroyedSquare, String note, String reportingUnit, String earthquakeId, String province, String city, String country, String town, String category) {
+    public CivilStructure(String id, String date, String location, Double basicallyIntactSquare, Double damagedSquare, Double destroyedSquare, String note, String reportingUnit, String earthquakeId, String province, String city, String country, String town, String category, String village) {
         this.id = id;
         this.date = date;
         this.location = location;
@@ -34,6 +34,15 @@ public class CivilStructure {
         this.country = country;
         this.town = town;
         this.category = category;
+        this.village = village;
+    }
+
+    public String getVillage() {
+        return village;
+    }
+
+    public void setVillage(String village) {
+        this.village = village;
     }
 
     public String getProvince() {

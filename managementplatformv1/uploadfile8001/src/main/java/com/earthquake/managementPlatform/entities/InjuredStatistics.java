@@ -12,8 +12,9 @@ public class InjuredStatistics {
     private String country;
     private String town;
     private String category;
+    private String village;
 
-    public InjuredStatistics(String id, String location, String date, int number, String reportingUnit, String earthquakeId, String province, String city, String country, String town, String category) {
+    public InjuredStatistics(String id, String location, String date, int number, String reportingUnit, String earthquakeId, String province, String city, String country, String town, String category, String village) {
         this.id = id;
         this.location = location;
         this.date = date;
@@ -25,9 +26,18 @@ public class InjuredStatistics {
         this.country = country;
         this.town = town;
         this.category = category;
+        this.village = village;
     }
 
     public InjuredStatistics() {
+    }
+
+    public String getVillage() {
+        return village;
+    }
+
+    public void setVillage(String village) {
+        this.village = village;
     }
 
     public String getProvince() {

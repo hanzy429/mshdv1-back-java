@@ -33,6 +33,7 @@ public class BrickwoodStructureResource {
         json=json.substring(0,json.length()-1);
         json="{\"source\":\"401\","+json;
         json=URLEncoder.encode(json,"utf-8");
+
         return restTemplate.postForObject(disasterInfoCodeUrl+"/v1/disasterInfoCodeToRecode/",json, PostVo.class);
     }
 

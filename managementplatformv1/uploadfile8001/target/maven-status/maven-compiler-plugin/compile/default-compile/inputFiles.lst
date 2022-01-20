@@ -1,117 +1,117 @@
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\FrameworkStructureResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FtpFileMethod.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\SecondaryDisasterStatistics.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\OtherStructureMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\DisasterInformationStorage.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\SquareStatistics.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\GasDisasterResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\LifeLineStatistics.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\DisasterFile.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\DeathStatisticsMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\DisasterPredictionResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\DebrisRecordMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\DebrisRecordResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\Insertdata.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\UploadFile8001.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\OtherRecordMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FileTypeFactory.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\KarstRecordResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\CrackRecordResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\DeathStatisticsResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\IrrigationDisaster.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\InjuredStatisticsResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\OtherStructureResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\CivilStructure.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\FileResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\Schedule.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\MasonryStructureResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\CommDisasterMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\MasonryStructureMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FileBehavior.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FtpPicMethod.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\TrafficDisasterMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\MissingStatisticsResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FtpEarthquakeInfoReading.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\DebrisRecord.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\LandslideRecordMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\CommDisasterResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\InjuredStatisticsMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\OilDisaster.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\FrameworkStructureMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\MasonryStructure.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper\ScheduleMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\ExcelFile.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\SettlementRecordResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\BrickwoodStructure.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\PersonStatistics.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\MissingStatisticsMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\PowerDisasterResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\GasDisaster.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\CollapseRecord.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\OtherRecord.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\JsonBehavior.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\JsonFile.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\WaterDisasterMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\XmlBehavior.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\SettlementRecordMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\BasicEarthquakeInfo.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\IrrigationDisasterMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\KarstRecordMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\BufferedReaderMethod.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\InjuredStatistics.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\MultiMediaMethodService.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\XmlFile.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\TrafficDisaster.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\DisasterPredictionMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\UploadFileService.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\WaterDisaster.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\config\DataSources1Config.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\CivilStructureMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\config\ParamConfig.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FtpMethod.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\PostVo.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\MultiMediaTypeFactory.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper\OnOffMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\config\MyMvcConfig.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\BasicEarthquakeInfoMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\CollapseRecordMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\DeathStatistics.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\OilDisasterMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\CivilStructureResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\TrafficDisasterResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\AddRecordService.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\DisasterPrediction.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\IrrigationDisasterResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\ExcelBehavior.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\OilDisasterResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\PostVoForOne.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\GetVo.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\CrackRecord.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\PicMethod.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\SettlementRecord.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\UploadFileScheduleService.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\config\ApplicationContextConfig.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\WaterDisasterResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\FileSettings.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\KarstRecord.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\OtherRecordResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\BrickwoodStructureResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\GasDisasterMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\PowerDisaster.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\PowerDisasterMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\ProvEarthquakeFrequency.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\config\DataSources2Config.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\DayDate.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\MissingStatistics.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\OtherStructure.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\CrackRecordMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FtpRealTimeFileMethod.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\FrameworkStructure.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FtpPredictionFileMethod.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\LandslideRecordResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\CollapseRecordResource.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\BrickwoodStructureMapper.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\CommDisaster.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\LandslideRecord.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\MultiMediaMethod.java
-D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\InformationResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\MultiMediaMethod.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\MissingStatisticsMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\config\ParamConfig.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\BasicEarthquakeInfoMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\OtherStructureMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\GetVo.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper\OnOffMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\config\MyMvcConfig.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\OilDisasterMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\CrackRecord.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\MissingStatistics.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\CrackRecordMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\DisasterInformationStorage.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\UploadFileService.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\CivilStructureResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\LandslideRecord.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\CollapseRecord.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\config\DataSources1Config.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FtpFileMethod.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\PersonStatistics.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\CommDisasterResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\PowerDisasterResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\PostVo.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\CollapseRecordResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\IrrigationDisaster.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\InformationResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FtpMethod.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper\ScheduleMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\PowerDisaster.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\SettlementRecordMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\AddRecordService.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\InjuredStatisticsResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\InjuredStatistics.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\OtherRecordResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FtpPredictionFileMethod.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\DeathStatisticsResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\WaterDisasterResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\SettlementRecord.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\GasDisasterMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\Schedule.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\OtherStructureResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\LandslideRecordMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\LandslideRecordResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\FrameworkStructureResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\DeathStatisticsMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\Insertdata.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\PicMethod.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\FrameworkStructure.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\SettlementRecordResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\LifeLineStatistics.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\KarstRecordResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\MasonryStructureMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\TrafficDisasterMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\FileResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\MultiMediaTypeFactory.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\TrafficDisasterResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\OilDisaster.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\CivilStructureMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\DeathStatistics.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\config\DataSources2Config.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\GasDisasterResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\WaterDisasterMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\OtherStructure.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FtpPicMethod.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\IrrigationDisasterResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\CollapseRecordMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\KarstRecord.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\DayDate.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\UploadFile8001.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\SecondaryDisasterStatistics.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\ExcelBehavior.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\JsonFile.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\SquareStatistics.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\TrafficDisaster.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\BrickwoodStructure.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\PostVoForOne.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\CommDisaster.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\FrameworkStructureMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\PowerDisasterMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\MultiMediaMethodService.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\DebrisRecord.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\ProvEarthquakeFrequency.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\UploadFileScheduleService.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\config\ApplicationContextConfig.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FileBehavior.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\DisasterPrediction.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\BufferedReaderMethod.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\OtherRecordMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\IrrigationDisasterMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\BasicEarthquakeInfo.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\BrickwoodStructureMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\DisasterPredictionMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\DisasterPredictionResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\MasonryStructure.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\OilDisasterResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\CommDisasterMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FtpEarthquakeInfoReading.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\XmlFile.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\DebrisRecordMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\GasDisaster.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\WaterDisaster.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\DisasterFile.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\MasonryStructureResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\CrackRecordResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\InjuredStatisticsMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\mapper2\KarstRecordMapper.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\FileSettings.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\MissingStatisticsResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FileTypeFactory.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\ExcelFile.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\BrickwoodStructureResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\CivilStructure.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\entities\OtherRecord.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\controller\DebrisRecordResource.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\FtpRealTimeFileMethod.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\XmlBehavior.java
+D:\GitHub\mshdv1-back-java\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service\JsonBehavior.java
