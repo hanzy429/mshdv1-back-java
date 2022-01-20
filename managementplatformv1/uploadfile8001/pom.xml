@@ -92,11 +92,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-<<<<<<< HEAD
-            <version>1.2.78</version>
-=======
             <version>1.2.57</version>
->>>>>>> 39974bc6906e8ac95aa48ca901742e511d5db500
         </dependency>
         <dependency>
             <groupId>org.json</groupId>

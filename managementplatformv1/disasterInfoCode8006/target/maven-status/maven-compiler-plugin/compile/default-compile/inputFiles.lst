@@ -1,53 +1,53 @@
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\MasonryStructureMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\DisasterInfoCode7.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\DisasterInfoCode.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\FrameworkStructureMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\InjuredStatisticsMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\EarthquakeCodeByTime.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\CategoryCode.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\OilDisasterMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\DeathStatisticsMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\PowerDisasterMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\controller\CodeResource.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\OtherStructureMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\WaterDisasterMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\IrrigationDisasterMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\CivilStructureMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\SettlementRecordMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationForFrameworkStructure.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\config\ApplicationContextConfig.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\DisasterInfoMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\CrackRecordMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\DebrisRecordMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\KarstRecordMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\CollapseRecordMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\DisasterInfoCode8006.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\config\MyMvcConfig.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\DistributionCode.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationForOtherStructure.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeCode.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GetVo.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationForMissingStatistics.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationFactory.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationForBrickwoodStructure.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\BrickwoodStructureMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationForInjuredStatistics.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationForCivilStructure.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationForDeathStatistics.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\PostVo.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\CommDisasterMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\AdministrativeRegionCode.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\TrafficDisasterMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\DistributionCodeMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\LandslideRecordMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\AdministrativeRegionCode12Mapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\GasDisasterMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\Aid.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\SequenceCode.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\AdministrativeRegionCode12.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\service\DisasterInfoCodeService.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\EarthquakeCode.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\MissingStatisticsMapper.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluation.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationForMasonryStructure.java
-D:\GitHub\mshdv1-back-java\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\OtherRecordMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\CategoryCode.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\CollapseRecordMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\MissingStatisticsMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\service\DisasterInfoCodeService.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationForInjuredStatistics.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\DisasterInfoCode7.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\OilDisasterMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\CivilStructureMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\InjuredStatisticsMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\CrackRecordMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\EarthquakeCodeByTime.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationForDeathStatistics.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\WaterDisasterMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\SettlementRecordMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\IrrigationDisasterMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GetVo.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\DistributionCodeMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\BrickwoodStructureMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\DisasterInfoCode.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\FrameworkStructureMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\DistributionCode.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluation.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationForMasonryStructure.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationForMissingStatistics.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\PostVo.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\AdministrativeRegionCode12.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\PowerDisasterMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\controller\CodeResource.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\AdministrativeRegionCode.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\OtherRecordMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\EarthquakeCode.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\LandslideRecordMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationForOtherStructure.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\DebrisRecordMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\AdministrativeRegionCode12Mapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\config\MyMvcConfig.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\DisasterInfoCode8006.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationForCivilStructure.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeCode.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationFactory.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\Aid.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\SequenceCode.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\GasDisasterMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationForFrameworkStructure.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\KarstRecordMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\CommDisasterMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\DisasterInfoMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\DeathStatisticsMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\entities\GradeEvaluationForBrickwoodStructure.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\OtherStructureMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\MasonryStructureMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\mapper\TrafficDisasterMapper.java
+D:\MSHD\mshd\managementplatformv1后端\managementplatformv1 3\managementplatformv1\disasterInfoCode8006\src\main\java\com\earthquake\managementPlatform\config\ApplicationContextConfig.java
