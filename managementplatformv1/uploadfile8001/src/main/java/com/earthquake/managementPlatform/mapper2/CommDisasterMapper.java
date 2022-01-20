@@ -24,7 +24,8 @@ public interface CommDisasterMapper {
             @Result(column = "city",property = "city",jdbcType = JdbcType.VARCHAR),
             @Result(column = "country",property = "country",jdbcType = JdbcType.VARCHAR),
             @Result(column = "town",property = "town",jdbcType = JdbcType.VARCHAR),
-            @Result(column = "category",property = "category",jdbcType = JdbcType.VARCHAR)
+            @Result(column = "category",property = "category",jdbcType = JdbcType.VARCHAR),
+            @Result(column = "village",property = "village",jdbcType = JdbcType.VARCHAR)
     })
     List<CommDisaster> getAllCommDisaster();
 

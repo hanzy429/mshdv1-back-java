@@ -89,7 +89,7 @@ eureka:
     service-url:
       defaultZone: http://114.116.249.36:7001/eureka/
 #      ,http://eureka7002.com:7002/eureka/
-#      defaultZone: http://localhost:7001/eureka
+      #defaultZone: http://localhost:7001/eureka
 #  instance:
 #    prefer-ip-address: true
 

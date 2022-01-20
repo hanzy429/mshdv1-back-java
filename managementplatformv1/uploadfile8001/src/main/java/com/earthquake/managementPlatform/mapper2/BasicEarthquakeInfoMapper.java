@@ -27,7 +27,12 @@ public interface BasicEarthquakeInfoMapper{
             @Result(column = "country",property = "country",jdbcType = JdbcType.VARCHAR),
             @Result(column = "town",property = "town",jdbcType = JdbcType.VARCHAR),
             @Result(column = "category",property = "category",jdbcType = JdbcType.VARCHAR),
+<<<<<<< HEAD
             @Result(column = "village",property = "village",jdbcType = JdbcType.VARCHAR)
+=======
+            @Result(column = "village",property = "village",jdbcType = JdbcType.VARCHAR),
+            @Result(column = "influencefield",property = "influencefield",jdbcType = JdbcType.VARCHAR)
+>>>>>>> 39974bc6906e8ac95aa48ca901742e511d5db500
     })
     List<BasicEarthquakeInfo> getAllDisasterInfo();
 

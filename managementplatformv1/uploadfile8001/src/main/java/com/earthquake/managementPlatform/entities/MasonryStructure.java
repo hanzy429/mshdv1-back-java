@@ -17,11 +17,11 @@ public class MasonryStructure {
     private String country;
     private String town;
     private String category;
-
+    private String village;
     public MasonryStructure() {
     }
 
-    public MasonryStructure(String id, String date, String location, Double basicallyIntactSquare, Double slightDamagedSquare, Double moderateDamagedSquare, Double seriousDamagedSquare, Double destroyedSquare, String note, String reportingUnit, String earthquakeId, String province, String city, String country, String town, String category) {
+    public MasonryStructure(String id, String date, String location, Double basicallyIntactSquare, Double slightDamagedSquare, Double moderateDamagedSquare, Double seriousDamagedSquare, Double destroyedSquare, String note, String reportingUnit, String earthquakeId, String province, String city, String country, String town, String category, String village) {
         this.id = id;
         this.date = date;
         this.location = location;
@@ -38,6 +38,15 @@ public class MasonryStructure {
         this.country = country;
         this.town = town;
         this.category = category;
+        this.village = village;
+    }
+
+    public String getVillage() {
+        return village;
+    }
+
+    public void setVillage(String village) {
+        this.village = village;
     }
 
     public String getProvince() {
