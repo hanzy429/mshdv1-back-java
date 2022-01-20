@@ -34,6 +34,17 @@ public class OilDisasterResource {
         return getVo;
     }
 
+    @GetMapping("/v1/byhouroilDisaster/{time}")
+    public GetVo oilDisasterByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = oilDisasterMapper.getRecentHourOilDisaster(time).size();
+        List<OilDisaster> oilDisasters =oilDisasterMapper.getRecentHourOilDisasterByPage((page-1)*limit,limit,time);
+        GetVo<OilDisaster> getVo = new GetVo<>(0,"获取数据成功！",size,oilDisasters);
+        return  getVo;
+    }
+
+
     @GetMapping("/v1/lastOilDisasterStatistics")
     public GetVo getLastOilDisasterStatistics(){
         List<LifeLineStatistics> lifeLineStatistics = oilDisasterMapper.getOilStatistics();

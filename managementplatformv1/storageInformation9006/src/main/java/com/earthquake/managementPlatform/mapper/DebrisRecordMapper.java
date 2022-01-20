@@ -40,6 +40,15 @@ public interface DebrisRecordMapper {
     @ResultMap(value = "debrisRecordMap")
     public DebrisRecord getDebrisRecordById(String id);
 
+
+
+    @Select("select * from earthquake.debrisrecord where earthquake_id = (SELECT D_ID FROM earthquake.disasterinfo order by date desc limit 1) and date <=  (SELECT date FROM earthquake.disasterinfo order by date desc limit 1) + interval #{time} hour order by date desc;")
+    @ResultMap(value = "debrisRecordMap")
+    List<DebrisRecord> getRecentHourDebrisRecord(@Param("time") int time);
+
+    @Select("select * from earthquake.debrisrecord where earthquake_id = (SELECT D_ID FROM earthquake.disasterinfo order by date desc limit 1) and date <=  (SELECT date FROM earthquake.disasterinfo order by date desc limit 1) + interval #{time} hour order by date desc limit #{pageNum}, #{limit};")
+    @ResultMap(value = "debrisRecordMap")
+    List<DebrisRecord> getRecentHourDebrisRecordByPage(@Param("pageNum") int pageNum,@Param("limit")int limit,@Param("time") int time );
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
 

@@ -41,6 +41,14 @@ public interface GasDisasterMapper {
     @ResultMap(value = "gasDisasterMap")
     public GasDisaster getGasDisasterById(String id);
 
+
+    @Select("select * from earthquake.gasdisaster where earthquake_id = (SELECT D_ID FROM earthquake.disasterinfo order by date desc limit 1) and date <=  (SELECT date FROM earthquake.disasterinfo order by date desc limit 1) + interval #{time} hour order by date desc;")
+    @ResultMap(value = "gasDisasterMap")
+    List<GasDisaster> getRecentHourGasDisaster(@Param("time") int time);
+
+    @Select("select * from earthquake.gasdisaster where earthquake_id = (SELECT D_ID FROM earthquake.disasterinfo order by date desc limit 1) and date <=  (SELECT date FROM earthquake.disasterinfo order by date desc limit 1) + interval #{time} hour order by date desc limit #{pageNum}, #{limit};")
+    @ResultMap(value = "gasDisasterMap")
+    List<GasDisaster> getRecentHourGasDisasterByPage(@Param("pageNum") int pageNum,@Param("limit")int limit,@Param("time") int time );
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
 

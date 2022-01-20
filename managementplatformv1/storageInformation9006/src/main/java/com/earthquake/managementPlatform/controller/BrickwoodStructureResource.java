@@ -36,6 +36,16 @@ public class BrickwoodStructureResource {
 
     }
 
+    @GetMapping("/v1/byhourbrickwoodStructure/{time}")
+    public GetVo brickwoodStructureByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = brickwoodStructureMapper.getRecentHourBrickwoodStructure(time).size();
+        List<BrickwoodStructure> brickwoodStructures =brickwoodStructureMapper.getRecentHourBrickwoodStructureByPage((page-1)*limit,limit,time);
+        GetVo<BrickwoodStructure> getVo = new GetVo<>(0,"获取数据成功！",size,brickwoodStructures);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastBrickwoodStructureByTime")
     public GetVo getLastBrickwoodStructureByTime(){
         List<SquareStatistics> squareStatistics = brickwoodStructureMapper.getLastBrickwoodStructureByTime();

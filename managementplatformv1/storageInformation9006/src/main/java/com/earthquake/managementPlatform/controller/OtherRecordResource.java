@@ -33,6 +33,16 @@ public class OtherRecordResource {
         return getVo;
     }
 
+    @GetMapping("/v1/byhourotherRecord/{time}")
+    public GetVo otherRecordByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = otherRecordMapper.getRecentHourOtherRecord(time).size();
+        List<OtherRecord> otherRecords =otherRecordMapper.getRecentHourOtherRecordByPage((page-1)*limit,limit,time);
+        GetVo<OtherRecord> getVo = new GetVo<>(0,"获取数据成功！",size,otherRecords);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastOtherRecordStatistics")
     public GetVo getLastOtherRecordStatistics(){
         List<SecondaryDisasterStatistics> secondaryDisasterStatistics = otherRecordMapper.getOtherStatistics();

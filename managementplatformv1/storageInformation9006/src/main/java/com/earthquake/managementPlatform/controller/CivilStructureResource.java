@@ -48,7 +48,15 @@ public class CivilStructureResource {
         GetVo<CivilStructure> getVo = new GetVo<>(0,"获取数据成功！",civilStructure.size(),civilStructure);
         return getVo;
     }
-
+    @GetMapping("/v1/byhourCivilStructure/{time}")
+    public GetVo civilStructureByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = civilStructureMapper.getRecentHourCivilStructure(time).size();
+        List<CivilStructure> civilStructures =civilStructureMapper.getRecentHourCivilStructureByPage((page-1)*limit,limit,time);
+        GetVo<CivilStructure> getVo = new GetVo<>(0,"获取数据成功！",size,civilStructures);
+        return  getVo;
+    }
     @PutMapping("/v1/civilStructure/{id}")
     public PostVo editCivilStructure(HttpServletRequest request, @PathVariable("id") String id){
         CivilStructure civilStructure = new CivilStructure();

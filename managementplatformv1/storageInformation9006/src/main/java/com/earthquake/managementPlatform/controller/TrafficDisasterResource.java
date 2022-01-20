@@ -34,6 +34,16 @@ public class TrafficDisasterResource {
         return getVo;
     }
 
+    @GetMapping("/v1/byhourtrafficDisaster/{time}")
+    public GetVo trafficDisasterByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = trafficDisasterMapper.getRecentHourTrafficDisaster(time).size();
+        List<TrafficDisaster> trafficDisasters =trafficDisasterMapper.getRecentHourTrafficDisasterByPage((page-1)*limit,limit,time);
+        GetVo<TrafficDisaster> getVo = new GetVo<>(0,"获取数据成功！",size,trafficDisasters);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastTrafficDisasterStatistics")
     public GetVo getLastTrafficDisasterStatistics(){
         List<LifeLineStatistics> lifeLineStatistics = trafficDisasterMapper.getTrafficStatistics();

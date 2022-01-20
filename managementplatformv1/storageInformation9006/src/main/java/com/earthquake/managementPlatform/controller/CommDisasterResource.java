@@ -34,6 +34,16 @@ public class CommDisasterResource {
         return getVo;
     }
 
+    @GetMapping("/v1/byhourcommDisaster/{time}")
+    public GetVo commDisasterByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = commDisasterMapper.getRecentHourCommDisaster(time).size();
+        List<CommDisaster> commDisasters =commDisasterMapper.getRecentHourCommDisasterByPage((page-1)*limit,limit,time);
+        GetVo<CommDisaster> getVo = new GetVo<>(0,"获取数据成功！",size,commDisasters);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastCommDisasterStatistics")
     public GetVo getLastCommDisasterStatistics(){
         List<LifeLineStatistics> lifeLineStatistics = commDisasterMapper.getCommDisasterStatistics();

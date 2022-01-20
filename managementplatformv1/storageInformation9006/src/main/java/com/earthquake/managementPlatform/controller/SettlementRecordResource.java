@@ -33,6 +33,16 @@ public class SettlementRecordResource {
         return getVo;
     }
 
+    @GetMapping("/v1/byhoursettlementRecord/{time}")
+    public GetVo settlementRecordByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = settlementRecordMapper.getRecentHourSettlementRecord(time).size();
+        List<SettlementRecord> settlementRecords =settlementRecordMapper.getRecentHourSettlementRecordByPage((page-1)*limit,limit,time);
+        GetVo<SettlementRecord> getVo = new GetVo<>(0,"获取数据成功！",size,settlementRecords);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastSettlementRecordStatistics")
     public GetVo getLastSettlementRecordStatistics(){
         List<SecondaryDisasterStatistics> secondaryDisasterStatistics = settlementRecordMapper.getSettlementStatistics();

@@ -34,6 +34,16 @@ public class FrameworkStructureResource {
         return getVo;
     }
 
+    @GetMapping("/v1/byhourframeworkStructure/{time}")
+    public GetVo frameworkStructureByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = frameworkStructureMapper.getRecentHourFrameworkStructure(time).size();
+        List<FrameworkStructure> frameworkStructures =frameworkStructureMapper.getRecentHourFrameworkStructureByPage((page-1)*limit,limit,time);
+        GetVo<FrameworkStructure> getVo = new GetVo<>(0,"获取数据成功！",size,frameworkStructures);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastFrameworkStructureByTime")
     public GetVo getLastFrameworkStructureByTime(){
         List<SquareStatistics> squareStatistics = frameworkStructureMapper.getLastFrameworkStructureByTime();

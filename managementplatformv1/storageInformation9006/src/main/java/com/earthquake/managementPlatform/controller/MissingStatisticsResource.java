@@ -34,6 +34,16 @@ public class MissingStatisticsResource {
         return getVo;
     }
 
+    @GetMapping("/v1/byhourmissingStatistics/{time}")
+    public GetVo missingStatisticsByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = missingStatisticsMapper.getRecentHourMissingStatistics(time).size();
+        List<MissingStatistics> missingStatistics =missingStatisticsMapper.getRecentHourMissingStatisticsByPage((page-1)*limit,limit,time);
+        GetVo<MissingStatistics> getVo = new GetVo<>(0,"获取数据成功！",size,missingStatistics);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastMissingStatisticsByTime")
     public GetVo getLastMissingStatisticsByTime(){
         List<PersonStatistics> personStatistics = missingStatisticsMapper.getLastMissingStatisticsByTime();

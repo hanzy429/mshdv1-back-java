@@ -34,6 +34,16 @@ public class MasonryStructureResource {
         return getVo;
     }
 
+    @GetMapping("/v1/byhourmasonryStructure/{time}")
+    public GetVo masonryStructureByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = masonryStructureMapper.getRecentHourMasonryStructure(time).size();
+        List<MasonryStructure> masonryStructures =masonryStructureMapper.getRecentHourMasonryStructureByPage((page-1)*limit,limit,time);
+        GetVo<MasonryStructure> getVo = new GetVo<>(0,"获取数据成功！",size,masonryStructures);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastMasonryStructureByTime")
     public GetVo getLastMasonryStructureByTime(){
         List<SquareStatistics> squareStatistics = masonryStructureMapper.getLastMasonryStructureByTime();

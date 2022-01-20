@@ -36,7 +36,6 @@ public class InformationResource {
         json=json.substring(1,json.length());
         json=json.substring(1,json.length()-1);
         json="{\"source\":\"501\","+json;
-        json="{\"source\":\"401\","+json;
         json= URLEncoder.encode(json,"utf-8");
         return restTemplate.postForObject(disasterInfoCodeUrl+"/v1/disasterInfoCodeToRecode/",json, PostVo.class);
     }

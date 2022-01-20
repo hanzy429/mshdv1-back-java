@@ -17,12 +17,13 @@ public class BasicEarthquakeInfo implements Serializable {
     private String country;
     private String town;
     private String category;
+    private String village;
 
 
     public BasicEarthquakeInfo() {
     }
 
-    public BasicEarthquakeInfo(String id, String date, String location, float longitude, float latitude, float depth, float magnitude, String picture, String reportingUnit, String province, String city, String country, String town, String category) {
+    public BasicEarthquakeInfo(String id, String date, String location, float longitude, float latitude, float depth, float magnitude, String picture, String reportingUnit, String province, String city, String country, String town, String category, String village) {
         this.id = id;
         this.date = date;
         this.location = location;
@@ -37,6 +38,15 @@ public class BasicEarthquakeInfo implements Serializable {
         this.country = country;
         this.town = town;
         this.category = category;
+        this.village = village;
+    }
+
+    public String getVillage() {
+        return village;
+    }
+
+    public void setVillage(String village) {
+        this.village = village;
     }
 
     public String getProvince() {

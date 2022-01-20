@@ -33,6 +33,16 @@ public class DebrisRecordResource {
         return getVo;
     }
 
+    @GetMapping("/v1/byhourdebrisRecord/{time}")
+    public GetVo debrisRecordByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = debrisRecordMapper.getRecentHourDebrisRecord(time).size();
+        List<DebrisRecord> debrisRecords =debrisRecordMapper.getRecentHourDebrisRecordByPage((page-1)*limit,limit,time);
+        GetVo<DebrisRecord> getVo = new GetVo<>(0,"获取数据成功！",size,debrisRecords);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastDebrisRecordStatistics")
     public GetVo getLastDebrisRecordStatistics(){
         List<SecondaryDisasterStatistics> secondaryDisasterStatistics = debrisRecordMapper.getDebrisStatistics();

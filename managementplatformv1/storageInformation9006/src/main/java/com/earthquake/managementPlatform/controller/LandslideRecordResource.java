@@ -33,6 +33,16 @@ public class LandslideRecordResource {
         return getVo;
     }
 
+    @GetMapping("/v1/byhourlandslideRecord/{time}")
+    public GetVo landslideRecordByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = landslideRecordMapper.getRecentHourLandslideRecord(time).size();
+        List<LandslideRecord> landslideRecords =landslideRecordMapper.getRecentHourLandslideRecordByPage((page-1)*limit,limit,time);
+        GetVo<LandslideRecord> getVo = new GetVo<>(0,"获取数据成功！",size,landslideRecords);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastLandslideRecordStatistics")
     public GetVo getLastLandslideRecordStatistics(){
         List<SecondaryDisasterStatistics> secondaryDisasterStatistics = landslideRecordMapper.getLandslideStatistics();

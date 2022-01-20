@@ -40,6 +40,14 @@ public interface SettlementRecordMapper {
     @ResultMap(value = "settlementRecordMap")
     public SettlementRecord getSettlementRecordById(String id);
 
+
+    @Select("select * from earthquake.settlementrecord where earthquake_id = (SELECT D_ID FROM earthquake.disasterinfo order by date desc limit 1) and date <=  (SELECT date FROM earthquake.disasterinfo order by date desc limit 1) + interval #{time} hour order by date desc;")
+    @ResultMap(value = "settlementRecordMap")
+    List<SettlementRecord> getRecentHourSettlementRecord(@Param("time") int time);
+
+    @Select("select * from earthquake.settlementrecord where earthquake_id = (SELECT D_ID FROM earthquake.disasterinfo order by date desc limit 1) and date <=  (SELECT date FROM earthquake.disasterinfo order by date desc limit 1) + interval #{time} hour order by date desc limit #{pageNum}, #{limit};")
+    @ResultMap(value = "settlementRecordMap")
+    List<SettlementRecord> getRecentHourSettlementRecordByPage(@Param("pageNum") int pageNum,@Param("limit")int limit,@Param("time") int time );
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
 

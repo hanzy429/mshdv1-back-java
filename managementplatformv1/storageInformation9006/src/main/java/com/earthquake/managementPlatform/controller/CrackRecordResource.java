@@ -33,6 +33,16 @@ public class CrackRecordResource {
         return getVo;
     }
 
+    @GetMapping("/v1/byhourcrackRecord/{time}")
+    public GetVo crackRecordByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = crackRecordMapper.getRecentHourCrackRecord(time).size();
+        List<CrackRecord> crackRecords =crackRecordMapper.getRecentHourCrackRecordByPage((page-1)*limit,limit,time);
+        GetVo<CrackRecord> getVo = new GetVo<>(0,"获取数据成功！",size,crackRecords);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastCrackRecordStatistics")
     public GetVo getLastCrackRecordStatistics(){
         List<SecondaryDisasterStatistics> secondaryDisasterStatistics = crackRecordMapper.getCrackStatistics();

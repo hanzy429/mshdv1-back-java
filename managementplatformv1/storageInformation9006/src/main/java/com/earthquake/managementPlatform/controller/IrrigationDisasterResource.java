@@ -34,6 +34,16 @@ public class IrrigationDisasterResource {
         return getVo;
     }
 
+    @GetMapping("/v1/byhourirrigationDisaster/{time}")
+    public GetVo irrigationDisasterByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = irrigationDisasterMapper.getRecentHourIrrigationDisaster(time).size();
+        List<IrrigationDisaster> irrigationDisasters =irrigationDisasterMapper.getRecentHourIrrigationDisasterByPage((page-1)*limit,limit,time);
+        GetVo<IrrigationDisaster> getVo = new GetVo<>(0,"获取数据成功！",size,irrigationDisasters);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastIrrigationDisasterStatistics")
     public GetVo getLastIrrigationDisasterStatistics(){
         List<LifeLineStatistics> lifeLineStatistics = irrigationDisasterMapper.getIrrigationStatistics();

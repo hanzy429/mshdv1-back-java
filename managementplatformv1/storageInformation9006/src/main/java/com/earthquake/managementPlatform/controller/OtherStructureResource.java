@@ -34,6 +34,16 @@ public class OtherStructureResource {
         return getVo;
     }
 
+    @GetMapping("/v1/byhourotherStructure/{time}")
+    public GetVo otherStructureByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = otherStructureMapper.getRecentOtherStructure(time).size();
+        List<OtherStructure> otherStructures =otherStructureMapper.getRecentHourOtherStructureByPage((page-1)*limit,limit,time);
+        GetVo<OtherStructure> getVo = new GetVo<>(0,"获取数据成功！",size,otherStructures);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastOtherStructureByTime")
     public GetVo getLastOtherStructureByTime(){
         List<SquareStatistics> squareStatistics = otherStructureMapper.getLastOtherStructureByTime();

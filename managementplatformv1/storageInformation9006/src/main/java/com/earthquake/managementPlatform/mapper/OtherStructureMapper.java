@@ -43,6 +43,15 @@ public interface OtherStructureMapper {
     @ResultMap(value = "otherStructureMap")
     public OtherStructure getOtherStructureById(String id);
 
+
+
+    @Select("select * from earthquake.otherstructure where earthquake_id = (SELECT D_ID FROM earthquake.disasterinfo order by date desc limit 1) and date <=  (SELECT date FROM earthquake.disasterinfo order by date desc limit 1) + interval #{time} hour order by date desc;")
+    @ResultMap(value = "otherStructureMap")
+    List<OtherStructure> getRecentHourOtherStructure(@Param("time") int time);
+
+    @Select("select * from earthquake.otherstructure where earthquake_id = (SELECT D_ID FROM earthquake.disasterinfo order by date desc limit 1) and date <=  (SELECT date FROM earthquake.disasterinfo order by date desc limit 1) + interval #{time} hour order by date desc limit #{pageNum}, #{limit};")
+    @ResultMap(value = "otherStructureMap")
+    List<OtherStructure> getRecentHourOtherStructureByPage(@Param("pageNum") int pageNum,@Param("limit")int limit,@Param("time") int time );
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
 

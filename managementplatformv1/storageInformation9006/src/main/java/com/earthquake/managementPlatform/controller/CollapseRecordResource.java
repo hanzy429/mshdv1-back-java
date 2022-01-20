@@ -33,6 +33,17 @@ public class CollapseRecordResource {
         return getVo;
     }
 
+
+    @GetMapping("/v1/byhourcollapseRecord/{time}")
+    public GetVo civilStructureByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = collapseRecordMapper.getRecentHourCollapseRecord(time).size();
+        List<CollapseRecord> collapseRecords =collapseRecordMapper.getRecentHourCollapseRecordByPage((page-1)*limit,limit,time);
+        GetVo<CollapseRecord> getVo = new GetVo<>(0,"获取数据成功！",size,collapseRecords);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastCollapseRecordStatistics")
     public GetVo getLastCollapseRecordStatistics(){
         List<SecondaryDisasterStatistics> secondaryDisasterStatistics = collapseRecordMapper.getCollapseStatistics();

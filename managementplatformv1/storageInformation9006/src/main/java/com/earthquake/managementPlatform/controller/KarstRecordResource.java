@@ -33,6 +33,16 @@ public class KarstRecordResource {
         return getVo;
     }
 
+    @GetMapping("/v1/byhourkarstRecord/{time}")
+    public GetVo gasDisasterByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = karstRecordMapper.getRecentHourKarstRecord(time).size();
+        List<KarstRecord> karstRecords =karstRecordMapper.getRecentHourKarstRecordByPage((page-1)*limit,limit,time);
+        GetVo<KarstRecord> getVo = new GetVo<>(0,"获取数据成功！",size,karstRecords);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastKarstRecordStatistics")
     public GetVo getLastKarstRecordStatistics(){
         List<SecondaryDisasterStatistics> secondaryDisasterStatistics = karstRecordMapper.getKarstStatistics();

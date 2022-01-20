@@ -34,6 +34,16 @@ public class GasDisasterResource {
         return getVo;
     }
 
+    @GetMapping("/v1/byhourgasDisaster/{time}")
+    public GetVo gasDisasterByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = gasDisasterMapper.getRecentHourGasDisaster(time).size();
+        List<GasDisaster> gasDisasters =gasDisasterMapper.getRecentHourGasDisasterByPage((page-1)*limit,limit,time);
+        GetVo<GasDisaster> getVo = new GetVo<>(0,"获取数据成功！",size,gasDisasters);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastGasDisasterStatistics")
     public GetVo getLastGasDisasterStatistics(){
         List<LifeLineStatistics> lifeLineStatistics = gasDisasterMapper.getGasStatistics();

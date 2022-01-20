@@ -34,6 +34,16 @@ public class PowerDisasterResource {
         return getVo;
     }
 
+    @GetMapping("/v1/byhourpowerDisaster/{time}")
+    public GetVo powerDisasterByHour(@PathVariable("time")int time, HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = powerDisasterMapper.getRecentHourPowerDisaster(time).size();
+        List<PowerDisaster> powerDisasters =powerDisasterMapper.getRecentHourPowerDisasterByPage((page-1)*limit,limit,time);
+        GetVo<PowerDisaster> getVo = new GetVo<>(0,"获取数据成功！",size,powerDisasters);
+        return  getVo;
+    }
+
     @GetMapping("/v1/lastPowerDisasterStatistics")
     public GetVo getLastPowerDisasterStatistics(){
         List<LifeLineStatistics> lifeLineStatistics = powerDisasterMapper.getPowerStatistics();
