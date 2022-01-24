@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
+import java.util.LinkedList;
 import java.util.List;
 
 @RestController
@@ -44,6 +45,44 @@ public class BrickwoodStructureResource {
         List<BrickwoodStructure> brickwoodStructures =brickwoodStructureMapper.getRecentHourBrickwoodStructureByPage((page-1)*limit,limit,time);
         GetVo<BrickwoodStructure> getVo = new GetVo<>(0,"获取数据成功！",size,brickwoodStructures);
         return  getVo;
+    }
+
+    @GetMapping("/v1/byhourbrickwoodStructurepicture")
+    public  GetVo drawbrickwoodStructurepicture(){
+
+        int size1 = brickwoodStructureMapper.getRecentHourBrickwoodStructure(1).size();
+        int size2= brickwoodStructureMapper.getRecentHourBrickwoodStructure(3).size();
+        int size3= brickwoodStructureMapper.getRecentHourBrickwoodStructure(5).size();
+        int size4= brickwoodStructureMapper.getRecentHourBrickwoodStructure(12).size();
+        List<BrickwoodStructure> brickwoodStructures=brickwoodStructureMapper.getRecentHourBrickwoodStructure(12);
+        List<Float> number=new LinkedList<>();
+        float num1=0;
+        float num2=0;
+        float num3=0;
+        float num4=0;
+        for(int j=0;j<size1;j++){
+            num1+=brickwoodStructures.get(j).getDestroyedSquare();
+            num1+=brickwoodStructures.get(j).getDamagedSquare();
+        }
+        number.add(num1);
+        for(int j=size1;j<size2;j++){
+            num2+=brickwoodStructures.get(j).getDestroyedSquare();
+            num2+=brickwoodStructures.get(j).getDamagedSquare();
+        }
+        number.add(num2);
+        for(int j=size2;j<size3;j++){
+            num3+=brickwoodStructures.get(j).getDestroyedSquare();
+            num3+=brickwoodStructures.get(j).getDamagedSquare();
+        }
+        number.add(num3);
+        for(int j=size3;j<size4;j++){
+            num4+=brickwoodStructures.get(j).getDestroyedSquare();
+            num4+=brickwoodStructures.get(j).getDamagedSquare();
+        }
+        number.add(num4);
+
+        GetVo<Float> getVo=new GetVo<>(0,"获取数据成功！",4,number);
+        return getVo;
     }
 
     @GetMapping("/v1/lastBrickwoodStructureByTime")

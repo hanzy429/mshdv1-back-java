@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.util.LinkedList;
 import java.util.List;
 
 @RestController
@@ -43,6 +44,53 @@ public class FrameworkStructureResource {
         GetVo<FrameworkStructure> getVo = new GetVo<>(0,"获取数据成功！",size,frameworkStructures);
         return  getVo;
     }
+
+    @GetMapping("/v1/byhourframeworkStructurepicture")
+    public  GetVo drawframeworkStructurepicture(){
+
+        int size1 = frameworkStructureMapper.getRecentHourFrameworkStructure(1).size();
+        int size2= frameworkStructureMapper.getRecentHourFrameworkStructure(3).size();
+        int size3= frameworkStructureMapper.getRecentHourFrameworkStructure(5).size();
+        int size4= frameworkStructureMapper.getRecentHourFrameworkStructure(12).size();
+        List<FrameworkStructure> frameworkStructures=frameworkStructureMapper.getRecentHourFrameworkStructure(12);
+        List<Float> number=new LinkedList<>();
+        float num1=0;
+        float num2=0;
+        float num3=0;
+        float num4=0;
+        for(int j=0;j<size1;j++){
+            num1+=frameworkStructures.get(j).getDestroyedSquare();
+            num1+=frameworkStructures.get(j).getSlightDamagedSquare();
+            num1+=frameworkStructures.get(j).getModerateDamagedSquare();
+            num1+=frameworkStructures.get(j).getSeriousDamagedSquare();
+        }
+        number.add(num1);
+        for(int j=size1;j<size2;j++){
+            num2+=frameworkStructures.get(j).getDestroyedSquare();
+            num2+=frameworkStructures.get(j).getSlightDamagedSquare();
+            num2+=frameworkStructures.get(j).getModerateDamagedSquare();
+            num2+=frameworkStructures.get(j).getSeriousDamagedSquare();
+        }
+        number.add(num2);
+        for(int j=size2;j<size3;j++){
+            num3+=frameworkStructures.get(j).getDestroyedSquare();
+            num3+=frameworkStructures.get(j).getSlightDamagedSquare();
+            num3+=frameworkStructures.get(j).getModerateDamagedSquare();
+            num3+=frameworkStructures.get(j).getSeriousDamagedSquare();
+        }
+        number.add(num3);
+        for(int j=size3;j<size4;j++){
+            num4+=frameworkStructures.get(j).getDestroyedSquare();
+            num4+=frameworkStructures.get(j).getSlightDamagedSquare();
+            num4+=frameworkStructures.get(j).getModerateDamagedSquare();
+            num4+=frameworkStructures.get(j).getSeriousDamagedSquare();
+        }
+        number.add(num4);
+
+        GetVo<Float> getVo=new GetVo<>(0,"获取数据成功！",4,number);
+        return getVo;
+    }
+
 
     @GetMapping("/v1/lastFrameworkStructureByTime")
     public GetVo getLastFrameworkStructureByTime(){

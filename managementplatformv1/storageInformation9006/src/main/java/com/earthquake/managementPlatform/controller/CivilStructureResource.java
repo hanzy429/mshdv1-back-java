@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.util.LinkedList;
 import java.util.List;
 
 @RestController
@@ -57,6 +58,45 @@ public class CivilStructureResource {
         GetVo<CivilStructure> getVo = new GetVo<>(0,"获取数据成功！",size,civilStructures);
         return  getVo;
     }
+
+    @GetMapping("/v1/byhourCivilStructurepicture")
+    public  GetVo drawCivilStructurepicture(){
+
+        int size1 = civilStructureMapper.getRecentHourCivilStructure(1).size();
+        int size2= civilStructureMapper.getRecentHourCivilStructure(3).size();
+        int size3= civilStructureMapper.getRecentHourCivilStructure(5).size();
+        int size4= civilStructureMapper.getRecentHourCivilStructure(12).size();
+        List<CivilStructure> civilStructures=civilStructureMapper.getRecentHourCivilStructure(12);
+        List<Float> number=new LinkedList<>();
+        float num1=0;
+        float num2=0;
+        float num3=0;
+        float num4=0;
+        for(int j=0;j<size1;j++){
+            num1+=civilStructures.get(j).getDestroyedSquare();
+            num1+=civilStructures.get(j).getDamagedSquare();
+        }
+        number.add(num1);
+        for(int j=size1;j<size2;j++){
+            num2+=civilStructures.get(j).getDestroyedSquare();
+            num2+=civilStructures.get(j).getDamagedSquare();
+        }
+        number.add(num2);
+        for(int j=size2;j<size3;j++){
+            num3+=civilStructures.get(j).getDestroyedSquare();
+            num3+=civilStructures.get(j).getDamagedSquare();
+        }
+        number.add(num3);
+        for(int j=size3;j<size4;j++){
+            num4+=civilStructures.get(j).getDestroyedSquare();
+            num4+=civilStructures.get(j).getDamagedSquare();
+        }
+        number.add(num4);
+
+        GetVo<Float> getVo=new GetVo<>(0,"获取数据成功！",4,number);
+        return getVo;
+    }
+
     @PutMapping("/v1/civilStructure/{id}")
     public PostVo editCivilStructure(HttpServletRequest request, @PathVariable("id") String id){
         CivilStructure civilStructure = new CivilStructure();

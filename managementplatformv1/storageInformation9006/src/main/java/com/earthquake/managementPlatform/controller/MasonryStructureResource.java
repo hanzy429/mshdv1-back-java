@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.util.LinkedList;
 import java.util.List;
 
 @RestController
@@ -43,6 +44,53 @@ public class MasonryStructureResource {
         GetVo<MasonryStructure> getVo = new GetVo<>(0,"获取数据成功！",size,masonryStructures);
         return  getVo;
     }
+
+    @GetMapping("/v1/byhourmasonryStructurepicture")
+    public  GetVo drawmasonryStructurepicture(){
+
+        int size1 = masonryStructureMapper.getRecentHourMasonryStructure(1).size();
+        int size2= masonryStructureMapper.getRecentHourMasonryStructure(3).size();
+        int size3= masonryStructureMapper.getRecentHourMasonryStructure(5).size();
+        int size4= masonryStructureMapper.getRecentHourMasonryStructure(12).size();
+        List<MasonryStructure> masonryStructures=masonryStructureMapper.getRecentHourMasonryStructure(12);
+        List<Float> number=new LinkedList<>();
+        float num1=0;
+        float num2=0;
+        float num3=0;
+        float num4=0;
+        for(int j=0;j<size1;j++){
+            num1+=masonryStructures.get(j).getDestroyedSquare();
+            num1+=masonryStructures.get(j).getSlightDamagedSquare();
+            num1+=masonryStructures.get(j).getModerateDamagedSquare();
+            num1+=masonryStructures.get(j).getSeriousDamagedSquare();
+        }
+        number.add(num1);
+        for(int j=size1;j<size2;j++){
+            num2+=masonryStructures.get(j).getDestroyedSquare();
+            num2+=masonryStructures.get(j).getSlightDamagedSquare();
+            num2+=masonryStructures.get(j).getModerateDamagedSquare();
+            num2+=masonryStructures.get(j).getSeriousDamagedSquare();
+        }
+        number.add(num2);
+        for(int j=size2;j<size3;j++){
+            num3+=masonryStructures.get(j).getDestroyedSquare();
+            num3+=masonryStructures.get(j).getSlightDamagedSquare();
+            num3+=masonryStructures.get(j).getModerateDamagedSquare();
+            num3+=masonryStructures.get(j).getSeriousDamagedSquare();
+        }
+        number.add(num3);
+        for(int j=size3;j<size4;j++){
+            num4+=masonryStructures.get(j).getDestroyedSquare();
+            num4+=masonryStructures.get(j).getSlightDamagedSquare();
+            num4+=masonryStructures.get(j).getModerateDamagedSquare();
+            num4+=masonryStructures.get(j).getSeriousDamagedSquare();
+        }
+        number.add(num4);
+
+        GetVo<Float> getVo=new GetVo<>(0,"获取数据成功！",4,number);
+        return getVo;
+    }
+
 
     @GetMapping("/v1/lastMasonryStructureByTime")
     public GetVo getLastMasonryStructureByTime(){

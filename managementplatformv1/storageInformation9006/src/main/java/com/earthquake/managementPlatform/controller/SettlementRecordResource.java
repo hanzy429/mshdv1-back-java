@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.util.LinkedList;
 import java.util.List;
 
 @RestController
@@ -43,6 +44,41 @@ public class SettlementRecordResource {
         return  getVo;
     }
 
+
+    @GetMapping("/v1/byhoursettlementRecord")
+    public  GetVo drawsettlementRecordpicture(){
+
+        int size1 = settlementRecordMapper.getRecentHourSettlementRecord(1).size();
+        int size2= settlementRecordMapper.getRecentHourSettlementRecord(3).size();
+        int size3= settlementRecordMapper.getRecentHourSettlementRecord(5).size();
+        int size4= settlementRecordMapper.getRecentHourSettlementRecord(12).size();
+        List<SettlementRecord> settlementRecords=settlementRecordMapper.getRecentHourSettlementRecord(12);
+        List<Integer> number=new LinkedList<>();
+        int num1=0;
+        int num2=0;
+        int num3=0;
+        int num4=0;
+        for(int j=0;j<size1;j++){
+            num1+=1;
+
+        }
+        number.add(num1);
+        for(int j=size1;j<size2;j++){
+            num2+=1;
+        }
+        number.add(num2);
+        for(int j=size2;j<size3;j++){
+            num3+=1;
+        }
+        number.add(num3);
+        for(int j=size3;j<size4;j++){
+            num4+=1;
+        }
+        number.add(num4);
+
+        GetVo<Integer> getVo=new GetVo<>(0,"获取数据成功！",4,number);
+        return getVo;
+    }
     @GetMapping("/v1/lastSettlementRecordStatistics")
     public GetVo getLastSettlementRecordStatistics(){
         List<SecondaryDisasterStatistics> secondaryDisasterStatistics = settlementRecordMapper.getSettlementStatistics();
