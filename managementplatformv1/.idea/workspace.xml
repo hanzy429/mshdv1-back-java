@@ -10,136 +10,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54b4a7d3-a29b-470d-8a2f-28281603307b" name="Default Changelist" comment="">
+    <list default="true" id="54b4a7d3-a29b-470d-8a2f-28281603307b" name="Default Changelist" comment="YXCTP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudEurekaServer7001/cloudEurekaServer7001.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudEurekaServer7002/cloudEurekaServer7002.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudZuulServer6542/cloudZuulServer6542.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataBackup6005/dataBackup6005.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/dataBackup6005-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/dataBackup6005-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/dataBackup6005-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/dataBackup6005-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/disasterInfoCode8006.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/src/main/java/com/earthquake/managementPlatform/controller/CodeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8006/src/main/java/com/earthquake/managementPlatform/controller/CodeResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8006/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8006/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/target/classes/com/earthquake/managementPlatform/controller/CodeResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8006/target/classes/com/earthquake/managementPlatform/controller/CodeResource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/target/disasterInfoCode8006-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8006/target/disasterInfoCode8006-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/target/disasterInfoCode8006-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8006/target/disasterInfoCode8006-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disasterInfoCode8007/disasterInfoCode8007.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/disasterInfoCode8007/src/main/java/com/earthquake/managementPlatform/controller/CodeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8007/src/main/java/com/earthquake/managementPlatform/controller/CodeResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/managementplatformv1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output6001/output6001.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9006/storageInformation9006.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/storageInformation9007.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9008/storageInformation9008.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/controller/BrickwoodStructureResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/controller/BrickwoodStructureResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/controller/InformationResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/controller/InformationResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/BasicEarthquakeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/BasicEarthquakeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/BrickwoodStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/BrickwoodStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/CivilStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/CivilStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/CollapseRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/CollapseRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/CommDisaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/CommDisaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/CrackRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/CrackRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/DeathStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/DeathStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/DebrisRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/DebrisRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/FrameworkStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/FrameworkStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/GasDisaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/GasDisaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/InjuredStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/InjuredStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/IrrigationDisaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/IrrigationDisaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/KarstRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/KarstRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/LandslideRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/LandslideRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/MasonryStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/MasonryStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/MissingStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/MissingStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/OilDisaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/OilDisaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/OtherRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/OtherRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/OtherStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/OtherStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/PowerDisaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/PowerDisaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/SettlementRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/SettlementRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/TrafficDisaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/TrafficDisaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/WaterDisaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/entities/WaterDisaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/BasicEarthquakeInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/BasicEarthquakeInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/BrickwoodStructureMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/BrickwoodStructureMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/CivilStructureMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/CivilStructureMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/CollapseRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/CollapseRecordMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/CommDisasterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/CommDisasterMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/CrackRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/CrackRecordMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/DeathStatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/DeathStatisticsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/DebrisRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/DebrisRecordMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/DisasterPredictionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/DisasterPredictionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/FrameworkStructureMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/FrameworkStructureMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/GasDisasterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/GasDisasterMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/InjuredStatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/InjuredStatisticsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/IrrigationDisasterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/IrrigationDisasterMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/KarstRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/KarstRecordMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/LandslideRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/LandslideRecordMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/MasonryStructureMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/MasonryStructureMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/MissingStatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/MissingStatisticsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/OilDisasterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/OilDisasterMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/OtherRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/OtherRecordMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/OtherStructureMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/OtherStructureMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/PowerDisasterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/PowerDisasterMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/SettlementRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/SettlementRecordMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/TrafficDisasterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/TrafficDisasterMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/WaterDisasterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/mapper2/WaterDisasterMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/controller/BrickwoodStructureResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/controller/BrickwoodStructureResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/controller/InformationResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/controller/InformationResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/BasicEarthquakeInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/BasicEarthquakeInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/BrickwoodStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/BrickwoodStructure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/CivilStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/CivilStructure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/CollapseRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/CollapseRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/CommDisaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/CommDisaster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/CrackRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/CrackRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/DeathStatistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/DeathStatistics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/DebrisRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/DebrisRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/FrameworkStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/FrameworkStructure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/GasDisaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/GasDisaster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/InjuredStatistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/InjuredStatistics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/IrrigationDisaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/IrrigationDisaster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/KarstRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/KarstRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/LandslideRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/LandslideRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/MasonryStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/MasonryStructure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/MissingStatistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/MissingStatistics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/OilDisaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/OilDisaster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/OtherRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/OtherRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/OtherStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/OtherStructure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/PowerDisaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/PowerDisaster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/SettlementRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/SettlementRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/TrafficDisaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/TrafficDisaster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/WaterDisaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/entities/WaterDisaster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/BasicEarthquakeInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/BasicEarthquakeInfoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/BrickwoodStructureMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/BrickwoodStructureMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/CivilStructureMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/CivilStructureMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/CollapseRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/CollapseRecordMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/CommDisasterMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/CommDisasterMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/CrackRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/CrackRecordMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/DeathStatisticsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/DeathStatisticsMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/DebrisRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/DebrisRecordMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/DisasterPredictionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/DisasterPredictionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/FrameworkStructureMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/FrameworkStructureMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/GasDisasterMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/GasDisasterMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/InjuredStatisticsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/InjuredStatisticsMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/IrrigationDisasterMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/IrrigationDisasterMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/KarstRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/KarstRecordMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/LandslideRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/LandslideRecordMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/MasonryStructureMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/MasonryStructureMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/MissingStatisticsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/MissingStatisticsMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/OilDisasterMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/OilDisasterMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/OtherRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/OtherRecordMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/OtherStructureMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/OtherStructureMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/PowerDisasterMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/PowerDisasterMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/SettlementRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/SettlementRecordMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/TrafficDisasterMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/TrafficDisasterMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/WaterDisasterMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/mapper2/WaterDisasterMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uploadfile8001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uploadfile8001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uploadfile8001/target/uploadfile8001-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/uploadfile8001-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uploadfile8001/target/uploadfile8001-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/uploadfile8001-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uploadfile8001/uploadfile8001.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userManagement5001/userManagement5001.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +89,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28850573" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -616,7 +500,8 @@
       <workItem from="1638070084879" duration="601000" />
       <workItem from="1640612884124" duration="1860000" />
       <workItem from="1642238693065" duration="322000" />
-      <workItem from="1642658106679" duration="6695000" />
+      <workItem from="1642658106679" duration="9822000" />
+      <workItem from="1643016370573" duration="980000" />
     </task>
     <servers />
   </component>
@@ -637,6 +522,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="YXCTP" />
+    <option name="LAST_COMMIT_MESSAGE" value="YXCTP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -648,7 +535,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/disasterInfoCode8006/src/main/java/com/earthquake/managementPlatform/controller/CodeResource.java</url>
-          <line>126</line>
+          <line>128</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -660,16 +547,6 @@
           <url>file://$PROJECT_DIR$/disasterInfoCode8006/src/main/java/com/earthquake/managementPlatform/controller/CodeResource.java</url>
           <line>69</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/disasterInfoCode8006/src/main/java/com/earthquake/managementPlatform/controller/CodeResource.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/disasterInfoCode8006/src/main/java/com/earthquake/managementPlatform/controller/CodeResource.java</url>
-          <line>116</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
